@@ -12,3 +12,4 @@ jobs:
         uses: actions/checkout@v4
       - uses: jdx/mise-action@v3.2.0
       - run: mise install
+      - run: ls -F .git/hooks/
